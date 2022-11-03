@@ -14,5 +14,8 @@ const showpage = (index) => {
         case 4:
             p.innerHTML = `<iframe src="../demo/w06/blog_21.html" width="100%" height="100%" />`;
             break;
+        case 5:
+            p.innerHTML = `<iframe src="../demo/w08/landing_21.html" width="100%" height="100%" />`;
+            break;
     }
 }
