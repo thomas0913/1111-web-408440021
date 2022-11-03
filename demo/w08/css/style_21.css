@@ -159,6 +159,14 @@ p {
   margin: 0 auto;
   max-width: 1170px;
 }
+
+.section-title{
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin: 2rem;
+}
+
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -172,10 +180,6 @@ p {
   background: var(--clr-primary-5);
   margin-left: auto;
   margin-right: auto;
-}
-.section-title {
-  margin-bottom: 4rem;
-  text-align: center;
 }
 .bg-grey {
   background: var(--clr-grey-10);
@@ -226,12 +230,6 @@ Blogs
 
 .blogs {
   padding: 4rem 0;
-}
-.section-title{
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  margin: 2rem;
 }
 .blogs-center{
   display: grid;
@@ -293,6 +291,61 @@ img {
 
 /*
 =============== 
-Titles
+Tiles
 ===============
 */
+
+.tiles {
+  padding: 4rem 0;
+}
+
+.tiles-center {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 12.5rem);
+  grid-template-areas: 
+    'a a a b'
+    'a a a c'
+    'd d d d'
+    'e f f f'
+    'e g h i'
+}
+.tiles-center img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.tiles img {
+  height: 100%;
+}
+.tile-1 {
+  grid-area: a;
+}
+.tile-2 {
+  grid-area: b;
+}
+.tile-3 {
+  grid-area: c;
+}
+.tile-4 {
+  grid-area: d;
+}
+.tile-5 {
+  grid-area: e;
+}
+.tile-6 {
+  grid-area: f;
+}
+.tile-7 {
+  grid-area: g;
+}
+.tile-8 {
+  grid-area: h;
+}
+.tile-9 {
+  grid-area: i;
+}
