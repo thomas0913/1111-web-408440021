@@ -26,9 +26,9 @@
 
 ### Midterm-P4: Add the hyperlink to my learning
 
-- [The hyperlink to my learning on github repo](https://github.com/thomas0913/1111-web-408440021/blob/main/project/midterm/resume_21.html)
+- [The hyperlink to my learning on github repo](https://github.com/thomas0913/1111-web-408440021/blob/main/project/midterm/learning_21.html)
 
-- [The hyperlink to my learning on vercel project](https://1111-web-408440021.vercel.app/project/midterm/resume_21.html)
+- [The hyperlink to my learning on vercel project](https://1111-web-408440021.vercel.app/project/midterm/learning_21.html)
 
 1. 問題解決
 
