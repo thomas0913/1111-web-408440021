@@ -521,7 +521,7 @@ Learning
   width: 100%;
   font-size: x-large;
   font-weight: bold;
-  padding-left: 45%;
+  padding-left: 48%;
 }
 .msg-input {
   width: 100%;
@@ -561,4 +561,22 @@ Learning
 }
 .feedback-learning-methods {
   padding: 0 2rem;
+}
+.problem-fixed-content {
+  padding: 2rem;
+  margin: 2rem;
+  height: auto;
+}
+.problem-fixed-content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.problem-fixed-content code {
+  font-family: Consolas,"courier new";
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
 }
