@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style_21.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+                <h3>Pin Yang Su</h3>
+            </div>
+            <!-- nav link -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#section-problem-fixed">問題解決</a>
+                </li>
+                <li>
+                    <a href="#section-self-learning">自主學習</a>
+                </li>
+                <li>
+                    <a href="#section-feedback">學習心得</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="problem-fixed" id="section-problem-fixed">
+        <div class="section-title">
+            <h2>問題解決</h2>
+        </div>
+    </section>
+
+    <section class="self-learning" id="section-self-learning">
+        <div class="section-title">
+            <h2>自主學習</h2>
+        </div>
+
+        <div class="form">
+            <div class="section-subtitle">
+                <h3>表單輸入</h3>
+            </div>
+            <div class="form-content">
+                <form class="alert" name="alert" onsubmit="learn_form()">
+                    <label for="fmassage">廣播訊息</label><br/><br/>
+                    <input class="msg-input" type="text" name="msgInput" placeholder="請輸入您想告訴大家的話" />
+                    <br/><br/>
+                    <input class="msg-submit" type="submit" value="發送"/>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback" id="section-feedback">
+        <div class="section-title">
+            <h2>學習心得</h2>
+        </div>
+        <div class="feedback-content">
+            <p class="feedback-text">
+                <h3>動機</h3>
+                到目前上課為止，課堂所教的幾乎是著重在畫面上的設計與切版，不過我覺得比起這些，
+                使用者介面的互動也是同樣重要的重點，而其中表單的輸入與輸出更是常見的網頁基本功能。
+                因此藉由W3C的學習資源，除了學習如何使用表單並應用課堂所教的CSS樣式設計外，
+                同時建構出一個簡單的訊息送出提示功能。
+                <br/><br/>
+                <h3>學習方法</h3>
+                <ul class="feedback-learning-methods" style="list-style-type: circle;">
+                    <li><p>Form tag by HTML :</p>建立表單最基本的架構，即是一個表單名稱，加上輸入欄位，最後是訂閱按鈕。
+                        其中有兩大重點，第一是輸入格子不一定只能輸入文字，還可以是其他像搜尋、網址、勾選欄或甚至是輸入檔案;
+                        第二個重點為form標籤可以利用外部腳本之自訂方法來監聽輸入欄位的數據。
+                    </li>
+                    <br/>
+                    <li><p>Form tag in CSS :</p>藉由參考課堂中所學的樣式技巧，簡單以卡片的架構來呈現主要功能區塊，
+                        並且額外加入輸入欄位的類別動畫。
+                    </li>
+                    <br/>
+                    <li><p>Alert message by JAVASCRIPT:</p>依照form標籤的默認特性，當標籤中的submit按鈕被點擊時，
+                        自訂義函式會立即獲取被鎖定的類別標籤中的值，並且把所得到的值，發出含有該值內容的alert警告顯示於頁面上方。
+                    </li>
+                </ul>
+                <br/><br/>
+                <h3>成果感想</h3>
+                其時在上這堂課之前，所有有關網頁的任何技術與知識甚至程式語言，
+                都是我自己在經過大量閱讀文章、教學、書籍、影片，去一個個慢慢堆疊學習並應用，
+                而現在其時我已經了解了許多現代單頁應用程式該擁有的基本技術，
+                包括怎麼使用React框架、怎麼建立API後台、如何讀寫資料庫、如何依靠CSS框架把畫面快速的美化。
+                不過到後來，我發現我學的現代網頁技術越多，更會慢慢因為基本的網頁三劍客的基礎底子打得不穩，
+                而讓我的開發速度變得越來越慢，後來因此決定試著來修修看這門課，畢竟外面的前端課程也不便宜。
+                當我在設計者個簡單的表單輸入輸出時，我發現因為有了更多CSS的設計架構與流程，
+                我變得更能去切出我想呈現出來的版面，而且也不必依賴任何的框架，
+                同時，我也可以更能規劃出html的標籤架構。希望老師在後面的課程，能教更多關於javascript的基本應用。
+            </p>
+        </div>
+    </section>
+
+    <script src="./js/learning_21.js"></script>
+</body>
+</html>
