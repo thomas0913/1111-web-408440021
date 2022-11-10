@@ -14,4 +14,4 @@
 
 - [The hyperlink to my resume on github repo](https://github.com/thomas0913/1111-web-408440021/blob/main/project/midterm/resume_21.html)
 
-- [The hyperlink to my resume on vercel project](https://1111-web-408440021.vercel.app/project/midterm/resume_21.html)
+- [The hyperlink to my resume on vercel project](https://1111-web-408440021.vercel.app/project/midterm/resume_21.html) 
