@@ -1,3 +1,18 @@
+### Github & Vercel URL
+
+[click me to hyperlink github repo](https://github.com/thomas0913/1111-web-408440021)
+
+[click me to hyperlink vercel project](https://1111-web-408440021.vercel.app/)
+
+[Midterm Project Github URL](https://github.com/thomas0913/1111-web-408440021/tree/main/project/midterm)
+
+![](./github-midterm.png)
+
+[Midterm Project Vercel URL]()
+
+### md file structure
+
+
 ### Midterm-P1: Add the hyperlink to my demo
 
 - [The hyperlink to my demo on github repo](https://github.com/thomas0913/1111-web-408440021/blob/main/demo_21.html)
