@@ -18,7 +18,7 @@ const showpage = (index) => {
             p.innerHTML = `<iframe src="../demo/w08/landing_21.html" width="100%" height="100%" />`;
             break;
         case 6:
-            p.innerHTML = `<iframe src="../demo/w09/multipage_21.html" width="100%" height="100%" />`;
+            p.innerHTML = `<iframe src="../demo/w09/resume_21.html" width="100%" height="100%" />`;
             break;
     }
 }
