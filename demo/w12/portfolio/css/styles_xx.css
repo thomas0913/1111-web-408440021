@@ -221,5 +221,53 @@ Navbar
     right: 3rem;
   }
 }
+/*
+=============== 
+Sidebar
+===============
+*/
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-grey-10);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+}
+.sidebar-links {
+  text-align: center;
+}
+.sidebar-links a {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--clr-grey-5);
+  letter-spacing: var(--spacing);
+}
+.sidebar-links a:hover {
+  color: var(--clr-primary-5);
+}
+.sidebar .close-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 2rem;
+  color: #bb2525;
+  cursor: pointer;
+  transition: var(--transition);
+  transform: translateX(-100%);
+}
+.sidebar .close-btn:hover {
+  color: #e66b6b;
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
 
 /*# sourceMappingURL=styles_xx.css.map */

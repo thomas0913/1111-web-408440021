@@ -55,3 +55,58 @@ Navbar
     }
   }
 }
+
+/*
+=============== 
+Sidebar
+===============
+*/
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--clr-grey-10);
+  display: grid;
+  justify-content: center; //水平對中
+  align-items: center; //垂直對中
+  transform: translateX(-100%);
+
+  &-links {
+    text-align: center;
+
+    a {
+      font-size: 2rem;
+      text-transform: capitalize;
+      color: var(--clr-grey-5);
+      letter-spacing: var(--spacing);
+
+      &:hover {
+        color: var(--clr-primary-5);
+      }
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 2rem;
+    color: #bb2525;
+    cursor: pointer;
+    transition: var(--transition);
+    transform: translateX(-100%);
+
+    &:hover {
+      color: #e66b6b;
+    }
+  }
+}
+
+.show-sidebar {
+  transform: translateX(0);
+}
