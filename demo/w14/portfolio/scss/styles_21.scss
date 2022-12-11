@@ -194,6 +194,66 @@ Services
 ===============
 */
 
+.about {
+  &-center {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem 2rem;
+  }
+  &-img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.05rem;
+  }
+
+  &-title {
+    text-align: left;
+    margin-bottom: 2rem;
+
+    .underline {
+      margin-left: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about {
+    &-center {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &-img {
+      display: block;
+      position: relative;
+      width: 70%;
+
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 1.5rem;
+        right: 2rem;
+        border: 0.25rem solid var(--clr-primary-5);
+        border-radius: var(--radius);
+      }
+    }
+    &-info {
+      p {
+        margin-right: 3rem;
+      }
+    }
+  }
+}
+
+/*
+=============== 
+Services
+===============
+*/
+
 .services-center {
   .service {
     background-color: var(--clr-white);
