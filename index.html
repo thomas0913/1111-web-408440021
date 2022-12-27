@@ -4,31 +4,402 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Homepage</title>
-    <link rel="stylesheet" href="./css/style_21.css">
+    <title>蘇品瑒 || Home</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles_21.css">
 </head>
 <body>
-    <div>
-        <ul>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+        <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+                <h3>Pin Yang Su</h3>
+            </div>
+            <!-- nav-links -->
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">home</a>
+                </li>
+                <li>
+                    <a href="demo_21.html">Demo</a>
+                </li>
+                <li>
+                    <a href="hero_21.html">Hero</a>
+                </li>
+                <li>
+                    <a href="resume_21.html">Resume</a>
+                </li>
+                <li>
+                    <a href="works_21.html">Works</a>
+                </li>
+                <li>
+                    <a href="learning_21.html">Learning</a>
+                </li>
+            </ul>
+    
+            <button class="nav-btn" id="nav-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i> 
+        </button>
+        <ul class="sidebar-links">
             <li>
-                <a href="./demo_21.html">Demo</a>
+                <a href="index.html">home</a>
             </li>
             <li>
-                <a href="./project/midterm/mid-project_21.html">Midterm Project</a>
+                <a href="demo_21.html">Demo</a>
+            </li>
+            <li>
+                <a href="hero_21.html">Hero</a>
+            </li>
+            <li>
+                <a href="resume_21.html">Resume</a>
+            </li>
+            <li>
+                <a href="works_21.html">Works</a>
+            </li>
+            <li>
+                <a href="learning_21.html">Learning</a>
             </li>
         </ul>
-    </div>
-
+        <!-- social icons -->
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com" class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/zh-Hant-TW" class="social-icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" class="social-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.whatsapp.com" class="social-icon">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" class="social-icon">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+            </li>
+        </ul>  
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+    <!-- header -->
     <section class="hero">
-
+      <div class="section-center hero-center">
+        <article class="hero-info">
+            <div class="underline"></div>
+            <h1>I'm PinYang</h1>
+            <h4>freelance web & mobile software Developer</h4>
+            <a href="./resume_21.html" class="btn hero-btn">hire me</a>
+            <!-- social icons -->
+            <ul class="social-icons hero-icons">
+                <li>
+                    <a href="https://www.facebook.com" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/zh-Hant-TW" class="social-icon">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" class="social-icon">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.whatsapp.com" class="social-icon">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" class="social-icon">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                </li>
+            </ul>
+        </article>
+        <article class="hero-img">
+          <img src="./images/hero-img.jpeg" class="hero-photo" alt="John Doe">
+        </article>
+      </div>
     </section>
-    <section class="resume">
-
+    <!-- end of header -->
+    <!-- about -->
+    <section class="section about">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img
+            src="./images/about-img.jpeg"
+            class="hero-photo"
+            alt="about img"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>about</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            目前畢業於淡江大學電機學系電資組學士班，並且在畢業之後仍在準備資工碩士的入學考試。
+          </p>
+          <p>
+            自己心中的核心理念，認為努力是一切通往成功道路的關鍵鑰匙，努力不一定會成功，
+            但一定會讓一部分的自己有所提升，並且努力的同時，也是在為未來的自己有所準備，
+            準備迎接突如其來的機會與挑戰，這樣的理念是受用於任何情況的。
+          </p>
+          <a href="resume_21.html" class="btn">about me</a>
+        </article>
+      </div>
     </section>
-    <section class="works">
-
+    <!-- end of about -->
+    <!-- services -->
+    <section class="section bg-grey">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>services</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="services-center section-center">
+        <!-- single service -->
+        <article class="service">
+          <i class="fas fa-code service-icon"></i>
+          <h4>web development</h4>
+          <div class="underline"></div>
+          <p>
+            網路開發為所有技術之基礎，並通曉現代網頁設計框架製作，以及響應式網頁的必要元件。
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-sketch service-icon"></i>
+          <h4>web design</h4>
+          <div class="underline"></div>
+          <p>
+            了解客戶所需要的視覺呈現，並且結合各種風格的多元設計。
+          </p>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <i class="fab fa-btc service-icon"></i>
+          <h4>dapp design</h4>
+          <div class="underline"></div>
+          <p>
+            為客戶客製化打造web3之基礎設施，並且專研加密貨幣金融之各方面需求。
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
     </section>
+    <!-- end of services -->
+    <!-- projects -->
+    <section class="section projects">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>latest works</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          如下為本人過往所製作過的所有作品，除了可點擊圖片查看作品內容，
+          也可點擊主頁選單Work選項，查看更多關於各個作品的資訊。
+        </p>
+      </div>
+      <!--end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <a href="./public/淺談子宮頸癌與我國防制政策.pdf" class="project-1">
+          <article class="project">
+            <img
+              src="./images/highschool.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>淺談子宮頸癌與我國防制政策</h4>
+              <p>高中小論文</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="https://thomas0913.github.io/nft_manager_interface_system/" class="project-2">
+          <article class="project">
+            <img
+              src="./images/nft_manager.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>NFT Web APP</h4>
+              <p>合作專案</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://sbt-by-touchid-app.vercel.app/" class="project-3">
+          <article class="project">
+            <img
+              src="./images/sbt_manager.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>靈魂綁定代幣</h4>
+              <p>畢業專題</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://github.com/thomas0913/python_final_project" class="project-4">
+          <article class="project">
+            <img
+              src="./images/disaster_tweet_nlp.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>災難貼文於Tweeter之真偽辨別</h4>
+              <p>課堂專題</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- end of projects -->
+    <!-- connect -->
+    <section class="connect">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        class="video-container"
+        poster="./images/project-1.jpeg"
+      >
+        <source src="./videos/connect.mp4" type="video/mp4" />
+        Sorry, your browser does not support embedded videos
+      </video>
+      <div class="video-banner">
+        <!-- section title -->
+        <div class="section-title">
+          <h2>let's get in touch</h2>
+          <div class="underline"></div>
+        </div>
+        <!--end of section title -->
+        <p class="video-text">
+          如果閱覽者您在所有的介紹之中有多少的興趣，或者是想了解更多的地方的話，可以點擊下方的聯繫按鈕，並與本人聯繫。
+        </p>
+        <a href="resume_21.html" class="btn">contact me</a>
+      </div>
+    </section>
+    <!-- end of connect -->
+    <!-- timeline -->
+    <section class="section timeline">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>timeline</h2>
+        <div class="underline"></div>
+      </div>
+      <!--end of section title -->
+      <div class="section-center timeline-center">
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>2022</h4>
+          <br>
+            1. 完成第一次的專案開發，其中為有關於NFT管理APP的製作。</br>
+            2. 完成大學專題的製作，為有關於靈魂綁定代幣的註冊與驗證功能開發。
+          </p>
+          <span class="number"> 1 </span>
+        </article>
+        <!-- end of  single timeline item -->
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>2019 - 2022</h4>
+          <p>
+            主要於淡江大學習讀學士學位與課業休習。
+          </p>
+          <span class="number"> 2 </span>
+        </article>
+        <!-- end of  single timeline item -->
+        <!-- single timeline item -->
+        <article class="timeline-item">
+          <h4>2018</h4>
+          <p>
+            成功於高中小論文競賽中，取得特優的成績。
+          </p>
+          <span class="number"> 3 </span>
+        </article>
+        <!-- end of  single timeline item -->
+      </div>
+    </section>
+    <!-- end of timeline -->
+    <!-- footer -->
+    <footer class="footer">
+        <!-- social icons -->
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com" class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/zh-Hant-TW" class="social-icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" class="social-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.whatsapp.com" class="social-icon">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" class="social-icon">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+            </li>
+        </ul> 
+
+        <p>&copy; <span id="date"></span> PinYang Su. All rights reserved.</p>
+    </footer>
+    <!-- end of footer -->
 
     <script src="./js/script_21.js"></script>
 </body>
-</html> 
+</html>
