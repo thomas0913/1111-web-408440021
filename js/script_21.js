@@ -23,6 +23,10 @@ navBtn.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
+const disableSidebar = () => {
+  sidebar.classList.remove("show-sidebar");
+}
+
 
 // set year
 date.innerHTML = new Date().getFullYear();

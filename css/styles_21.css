@@ -290,6 +290,7 @@ Sidebar
   justify-content: center;
   align-items: center;
   transform: translateX(-100%);
+  z-index: 6;
 }
 .sidebar-links {
   text-align: center;
@@ -329,8 +330,8 @@ Top Button
 ===============
 */
 .top-btn {
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
   display: none;
   position: fixed;
   bottom: 2rem;
@@ -349,6 +350,18 @@ Top Button
   object-fit: cover;
 }
 
+@media screen and (min-width: 768px) {
+  .top-btn {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .top-btn {
+    width: 5rem;
+    height: 5rem;
+  }
+}
 /*
 =============== 
 Hero
@@ -443,16 +456,22 @@ Resume
 .resume-up .left-content h4 {
   font-size: smaller;
 }
+.resume-up .left-content i {
+  font-size: smaller;
+}
 .resume-up .right-content {
   padding: 0.5rem 1rem;
   margin-left: 2rem;
 }
 .resume-up .right-content .resume-about {
   margin: 1rem 0;
+  padding: auto 1rem;
+  width: 40vw;
+  max-width: 50rem;
 }
 .resume-up .right-content .resume-about p {
-  margin: 0 0;
   color: var(--clr-white);
+  margin: 0 auto;
 }
 .resume-up .right-content .resume-about .about-icons {
   justify-items: start;
@@ -506,6 +525,21 @@ Resume
   transition: var(--transition);
 }
 
+@media screen and (min-width: 570px) {
+  .resume-up .right-content .resume-about {
+    width: 55vw;
+    max-width: 50rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .resume-up .left-content i {
+    font-size: medium;
+  }
+  .resume-up .right-content .resume-about {
+    width: 65vw;
+    max-width: 50rem;
+  }
+}
 /*
 =============== 
 Works
@@ -524,6 +558,7 @@ Works
   position: relative;
   background-color: var(--clr-primary-5);
   border-radius: var(--radius);
+  margin: auto 1rem;
   margin-bottom: 2rem;
 }
 .works .work::after {
@@ -571,15 +606,10 @@ Works
   .works-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: 1rem;
   }
 }
-@media screen and (min-width: 992px) {
-  .works-center {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media screen and (min-width: 1170px) {
+@media screen and (min-width: 1024px) {
   .works-center {
     grid-template-rows: 15rem 15rem;
     gap: 1rem;
@@ -613,7 +643,7 @@ Learning
   padding-bottom: 0;
 }
 .problem-fixed-text {
-  width: 85vw;
+  width: 80vw;
   max-width: 70rem;
   margin: 30px auto;
 }
@@ -629,9 +659,10 @@ Learning
 
 .self-learning {
   padding-bottom: 0;
+  padding-top: 1rem;
 }
 .self-learning-text {
-  width: 85vw;
+  width: 80vw;
   max-width: 70rem;
   margin: 30px auto;
 }
@@ -645,8 +676,12 @@ Learning
   padding-bottom: 3rem;
 }
 
+.feedback {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
 .feedback-text {
-  width: 85vw;
+  width: 80vw;
   max-width: 70rem;
   margin: 2rem auto;
 }

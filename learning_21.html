@@ -55,13 +55,13 @@
             <a href="index.html">home</a>
           </li>
           <li>
-            <a href="#problem-fixed">問題解決</a>
+            <a href="#problem-fixed" onclick="disableSidebar()">問題解決</a>
           </li>
           <li>
-            <a href="#self-learning">自主學習</a>
+            <a href="#self-learning" onclick="disableSidebar()">自主學習</a>
           </li>
           <li>
-            <a href="#feedback">學習心得</a>
+            <a href="#feedback" onclick="disableSidebar()">學習心得</a>
           </li>
         </ul>
         <!-- social icons -->
@@ -113,7 +113,7 @@
 
       <div class="demo">
         <div class="demo-1">
-          <p>
+          <p class="problem-fixed-text">
             設計的概念差不多和期中履歷表一樣，主要利用grid屬性來分配版面的切割，並且搭配和主頁一樣的色系。
           </p>
           <img src="./images/learning/problem-fix.png">
@@ -134,20 +134,21 @@
 
       <div class="demo">
         <div class="demo-1">
-          <p>當閱覽至頁面底部時，可以看到右下角有一個我個人的大頭貼照，
-             並且也可以注意到，button的HTML標籤樣式屬性display為none。
+          <p class="self-learning-text">
+            當閱覽至頁面底部時，可以看到右下角有一個我個人的大頭貼照，
+            並且也可以注意到，button的HTML標籤樣式屬性display為none。
           </p>
           <img src="./images/learning/self_learning_1.png">
         </div>
         <div class="demo-2">
-          <p>
+          <p class="self-learning-text">
             接著可點擊此置頂按鈕，可以瞬間讓頁面回到最頂端，
             並且也可以發現，button的HTML標籤樣式屬性display已經變為block了。
           </p>
           <img src="./images/learning/self_learning_2.png">
         </div>
         <div class="demo-3">
-          <p>
+          <p class="self-learning-text">
             此功能主要的關鍵為，需要用JavaScript來監聽按鈕的標籤，
             且當畫面超過所設定的距離時，則會出現，
             反之當點擊按鈕後，會立即呼叫重置函示，重置畫面卷軸為0。
