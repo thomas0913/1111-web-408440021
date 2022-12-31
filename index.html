@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>蘇品瑒 || Home</title>
+    <title>My Homepages</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -20,27 +20,27 @@
         <div class="nav-center">
             <!-- nav header -->
             <div class="nav-header">
-                <h3>Pin Yang Su</h3>
+              <h4>蘇品瑒 - 408440021</h4>
             </div>
             <!-- nav-links -->
             <ul class="nav-links">
                 <li>
-                    <a href="index.html">home</a>
+                  <a href="demo_21.html">Demo</a>
                 </li>
                 <li>
-                    <a href="demo_21.html">Demo</a>
+                  <a href="./project/midterm/mid-project_21.html">Midterm Projects</a>
                 </li>
                 <li>
-                    <a href="hero_21.html">Hero</a>
+                  <a href="#hero">Hero</a>
                 </li>
                 <li>
-                    <a href="resume_21.html">Resume</a>
+                  <a href="#resume">Resume</a>
                 </li>
                 <li>
-                    <a href="works_21.html">Works</a>
+                  <a href="#works">Works</a>
                 </li>
                 <li>
-                    <a href="learning_21.html">Learning</a>
+                  <a href="learning_21.html">Learning</a>
                 </li>
             </ul>
     
@@ -57,24 +57,24 @@
           <i class="fas fa-times"></i> 
         </button>
         <ul class="sidebar-links">
-            <li>
-                <a href="index.html">home</a>
-            </li>
-            <li>
-                <a href="demo_21.html">Demo</a>
-            </li>
-            <li>
-                <a href="hero_21.html">Hero</a>
-            </li>
-            <li>
-                <a href="resume_21.html">Resume</a>
-            </li>
-            <li>
-                <a href="works_21.html">Works</a>
-            </li>
-            <li>
-                <a href="learning_21.html">Learning</a>
-            </li>
+          <li>
+            <a href="demo_21.html">Demo</a>
+          </li>
+          <li>
+            <a href="./project/midterm/mid-project_21.html">Midterm Projects</a>
+          </li>
+          <li>
+            <a href="#hero">Hero</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+          <li>
+            <a href="#works">Works</a>
+          </li>
+          <li>
+            <a href="learning_21.html">Learning</a>
+          </li>
         </ul>
         <!-- social icons -->
         <ul class="social-icons">
@@ -107,14 +107,19 @@
       </div>
     </aside>
     <!-- end of sidebar -->
+
+    <button class="top-btn" id="top-btn" onclick="toTop()">
+      <img src="./images/yangsu.jpg">
+    </button>
+
     <!-- header -->
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="section-center hero-center">
         <article class="hero-info">
             <div class="underline"></div>
             <h1>I'm PinYang</h1>
             <h4>freelance web & mobile software Developer</h4>
-            <a href="./resume_21.html" class="btn hero-btn">hire me</a>
+            <a href="#resume" class="btn hero-btn">hire me</a>
             <!-- social icons -->
             <ul class="social-icons hero-icons">
                 <li>
@@ -145,226 +150,191 @@
             </ul>
         </article>
         <article class="hero-img">
-          <img src="./images/hero-img.jpeg" class="hero-photo" alt="John Doe">
+          <img src="./images/yangsu.jpg" class="hero-photo" alt="John Doe">
         </article>
       </div>
     </section>
     <!-- end of header -->
-    <!-- about -->
-    <section class="section about">
-      <div class="section-center about-center">
-        <!-- about img -->
-        <article class="about-img">
-          <img
-            src="./images/about-img.jpeg"
-            class="hero-photo"
-            alt="about img"
-          />
-        </article>
-        <!-- about info -->
-        <article class="about-info"> 
-          <!-- section title -->
-          <div class="section-title about-title">
-            <h2>about</h2>
-            <div class="underline"></div>
-          </div>
-          <!--end of section title -->
-          <p>
-            目前畢業於淡江大學電機學系電資組學士班，並且在畢業之後仍在準備資工碩士的入學考試。
-          </p>
-          <p>
-            自己心中的核心理念，認為努力是一切通往成功道路的關鍵鑰匙，努力不一定會成功，
-            但一定會讓一部分的自己有所提升，並且努力的同時，也是在為未來的自己有所準備，
-            準備迎接突如其來的機會與挑戰，這樣的理念是受用於任何情況的。
-          </p>
-          <a href="resume_21.html" class="btn">about me</a>
-        </article>
-      </div>
-    </section>
-    <!-- end of about -->
-    <!-- services -->
-    <section class="section bg-grey">
+
+    <section class="resume" id="resume">
       <!-- section title -->
-      <div class="section-title">
-        <h2>services</h2>
+      <div class="section-title resume-title">
+        <h2>Resume</h2>
         <div class="underline"></div>
       </div>
       <!--end of section title -->
-      <div class="services-center section-center">
-        <!-- single service -->
-        <article class="service">
-          <i class="fas fa-code service-icon"></i>
-          <h4>web development</h4>
-          <div class="underline"></div>
-          <p>
-            網路開發為所有技術之基礎，並通曉現代網頁設計框架製作，以及響應式網頁的必要元件。
-          </p>
-        </article>
-        <!-- end of single service -->
-        <!-- single service -->
-        <article class="service">
-          <i class="fab fa-sketch service-icon"></i>
-          <h4>web design</h4>
-          <div class="underline"></div>
-          <p>
-            了解客戶所需要的視覺呈現，並且結合各種風格的多元設計。
-          </p>
-        </article>
-        <!-- end of single service -->
-        <!-- single service -->
-        <article class="service">
-          <i class="fab fa-btc service-icon"></i>
-          <h4>dapp design</h4>
-          <div class="underline"></div>
-          <p>
-            為客戶客製化打造web3之基礎設施，並且專研加密貨幣金融之各方面需求。
-          </p>
-        </article>
-        <!-- end of single service -->
+      <div class="section-center resume-up">
+        <div class="left-content">
+          <img src="./images/yangsu.jpg">
+          <h3>蘇品瑒</h3>
+          <h4>software Developer</h4>
+          <i class="fa fa-map-marker">新北市淡水區</i>
+        </div>
+        <div class="right-content">
+          <div class="resume-about">
+            <p>
+              自己心中的核心理念，認為努力是一切通往成功道路的關鍵鑰匙，努力不一定會成功，
+              但一定會讓一部分的自己有所提升，並且努力的同時，也是在為未來的自己有所準備，
+              準備迎接突如其來的機會與挑戰。
+            </p>
+            <ul class="social-icons about-icons">
+              <li>
+                  <a href="https://www.youtube.com" class="social-icon">
+                      <i class="fa-brands fa-youtube"></i>
+                  </a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com" class="social-icon">
+                      <i class="fa-brands fa-instagram-square"></i>
+                  </a>
+              </li>
+              <li>
+                <a href="408440021@gms.tku.edu.tw" class="social-icon">
+                    <i class="fab fa-google"></i>
+                </a>
+            </li>
+            </ul>
+          </div>
+          <div class="resume-skills">
+            <div class="skills-title">
+              <h4>技能</h4>
+              <ul class="social-icons skills-icons">
+                <li>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-node-js"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-react"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="social-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="section-center resume-down">
+        <div class="hp">
+          <div class="section-title graduate-title">
+            <h3>經歷</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="hp-container">
+            <p>
+              目前就讀私立淡江大學電機系四年級資訊組，在大學期間曾擔任系上系學會之教學長一職，並也身兼過密室逃脫活動之執行負責人。 在大四下時，參與過某遊戲公司之NFT空投銷售作業之網頁應用程式開發，且由教授推薦之。 高中小論文寫作比賽以"淺談子宮頸癌與我國防制政策"之題目，取得當屆生衛組特優。
+            </p>
+          </div>
+        </div>
+        <div class="graduate">
+          <div class="section-title graduate-title">
+            <h3>學歷</h3>
+            <div class="underline"></div>
+          </div>
+          <div class="graduate-container">
+            <article class="service">
+              <img src="./images/市三重.png">
+              <h4>國立市三重高中</h4>
+              <p>
+                2017-2019
+              </p>
+            </article>
+            <article class="service">
+              <img src="./images/淡江大學.png">
+              <h4>私立淡江大學</h4>
+              <h5>電機系資訊組學士班</h5>
+              <p>
+                2019-2022
+              </p>
+            </article>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- end of services -->
-    <!-- projects -->
-    <section class="section projects">
+
+    <!-- works -->
+    <section class="section works" id="works">
       <!-- section title -->
       <div class="section-title">
         <h2>latest works</h2>
         <div class="underline"></div>
-        <p class="projects-text">
+        <p class="works-text">
           如下為本人過往所製作過的所有作品，除了可點擊圖片查看作品內容，
           也可點擊主頁選單Work選項，查看更多關於各個作品的資訊。
         </p>
       </div>
       <!--end of section title -->
-      <div class="section-center projects-center">
-        <!-- single project -->
-        <a href="./project/final/public/淺談子宮頸癌與我國防制政策.pdf" class="project-1">
-          <article class="project">
+      <div class="section-center works-center">
+        <!-- single work -->
+        <a href="./project/final/public/淺談子宮頸癌與我國防制政策.pdf" class="work-1">
+          <article class="work">
             <img
               src="./images/highschool.png"
-              alt="single project"
-              class="project-img"
+              alt="single work"
+              class="work-img"
             />
-            <div class="project-info">
+            <div class="work-info">
               <h4>淺談子宮頸癌與我國防制政策</h4>
               <p>高中小論文</p>
             </div>
           </article>
         </a>
-        <!-- end of single project -->
-        <!-- single project -->
-        <a href="https://thomas0913.github.io/nft_manager_interface_system/" class="project-2">
-          <article class="project">
+        <!-- end of single works -->
+        <!-- single work -->
+        <a href="https://thomas0913.github.io/nft_manager_interface_system/" class="work-2">
+          <article class="work">
             <img
               src="./images/nft_manager.png"
-              alt="single project"
-              class="project-img"
+              alt="single work"
+              class="work-img"
             />
-            <div class="project-info">
+            <div class="work-info">
               <h4>NFT Web APP</h4>
               <p>合作專案</p>
             </div>
           </article>
         </a>
-        <!-- end of single project --><!-- single project -->
-        <a href="https://sbt-by-touchid-app.vercel.app/" class="project-3">
-          <article class="project">
+        <!-- end of single works -->
+        <!-- single work -->
+        <a href="https://sbt-by-touchid-app.vercel.app/" class="work-3">
+          <article class="work">
             <img
               src="./images/sbt_manager.png"
-              alt="single project"
-              class="project-img"
+              alt="single work"
+              class="work-img"
             />
-            <div class="project-info">
+            <div class="work-info">
               <h4>靈魂綁定代幣</h4>
               <p>畢業專題</p>
             </div>
           </article>
         </a>
-        <!-- end of single project --><!-- single project -->
-        <a href="https://github.com/thomas0913/python_final_project" class="project-4">
-          <article class="project">
+        <!-- end of single works -->
+        <!-- single work -->
+        <a href="https://github.com/thomas0913/python_final_project" class="work-4">
+          <article class="work">
             <img
               src="./images/disaster_tweet_nlp.png"
-              alt="single project"
-              class="project-img"
+              alt="single work"
+              class="work-img"
             />
-            <div class="project-info">
+            <div class="work-info">
               <h4>災難貼文於Tweeter之真偽辨別</h4>
               <p>課堂專題</p>
             </div>
           </article>
         </a>
-        <!-- end of single project -->
+        <!-- end of single work -->
       </div>
     </section>
-    <!-- end of projects -->
-    <!-- connect -->
-    <section class="connect">
-      <video
-        controls
-        autoplay
-        muted
-        loop
-        class="video-container"
-        poster="./images/project-1.jpeg"
-      >
-        <source src="./videos/connect.mp4" type="video/mp4" />
-        Sorry, your browser does not support embedded videos
-      </video>
-      <div class="video-banner">
-        <!-- section title -->
-        <div class="section-title">
-          <h2>let's get in touch</h2>
-          <div class="underline"></div>
-        </div>
-        <!--end of section title -->
-        <p class="video-text">
-          如果閱覽者您在所有的介紹之中有多少的興趣，或者是想了解更多的地方的話，可以點擊下方的聯繫按鈕，並與本人聯繫。
-        </p>
-        <a href="resume_21.html" class="btn">contact me</a>
-      </div>
-    </section>
-    <!-- end of connect -->
-    <!-- timeline -->
-    <section class="section timeline">
-      <!-- section title -->
-      <div class="section-title">
-        <h2>timeline</h2>
-        <div class="underline"></div>
-      </div>
-      <!--end of section title -->
-      <div class="section-center timeline-center">
-        <!-- single timeline item -->
-        <article class="timeline-item">
-          <h4>2022</h4>
-          <br>
-            1. 完成第一次的專案開發，其中為有關於NFT管理APP的製作。</br>
-            2. 完成大學專題的製作，為有關於靈魂綁定代幣的註冊與驗證功能開發。
-          </p>
-          <span class="number"> 1 </span>
-        </article>
-        <!-- end of  single timeline item -->
-        <!-- single timeline item -->
-        <article class="timeline-item">
-          <h4>2019 - 2022</h4>
-          <p>
-            主要於淡江大學習讀學士學位與課業休習。
-          </p>
-          <span class="number"> 2 </span>
-        </article>
-        <!-- end of  single timeline item -->
-        <!-- single timeline item -->
-        <article class="timeline-item">
-          <h4>2018</h4>
-          <p>
-            成功於高中小論文競賽中，取得特優的成績。
-          </p>
-          <span class="number"> 3 </span>
-        </article>
-        <!-- end of  single timeline item -->
-      </div>
-    </section>
-    <!-- end of timeline -->
+    <!-- end of works -->
+
     <!-- footer -->
     <footer class="footer">
         <!-- social icons -->

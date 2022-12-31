@@ -5,62 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class Demo</title>
-    <link rel="stylesheet" href="./css/style_21.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles_21.css">
 </head>
 <body>
-    <nav class="nav">
+    <!-- navbar -->
+    <nav class="nav" id="nav">
         <div class="nav-center">
             <!-- nav header -->
             <div class="nav-header">
                 <h4>蘇品瑒 - 408440021</h4>
             </div>
-            <!-- nav link -->
+            <!-- nav-links -->
             <ul class="nav-links">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li onclick="showpage(1)">
-                    <a href="#">w2-intro</a>
+                    <a href="#">w2</a>
                 </li>
                 <li onclick="showpage(2)">
-                    <a href="#">w3-card</a>
+                    <a href="#">w3</a>
                 </li>
                 <li onclick="showpage(3)">
-                    <a href="#">w5-blog</a>
+                    <a href="#">w5</a>
                 </li>
                 <li onclick="showpage(4)">
-                    <a href="#">w6-grid</a>
+                    <a href="#">w6</a>
                 </li>
                 <li onclick="showpage(5)">
-                    <a href="#">w8-landing</a>
+                    <a href="#">w8</a>
                 </li>
                 <li onclick="showpage(6)">
-                    <a href="#">w9-resume</a>
+                    <a href="#">w9</a>
                 </li>
                 <li onclick="showpage(7)">
-                    <a href="#">w11</a>
+                    <a href="#">w10</a>
                 </li>
                 <li onclick="showpage(8)">
-                    <a href="#">w12</a>
+                    <a href="#">w11</a>
                 </li>
                 <li onclick="showpage(9)">
-                    <a href="#">w13</a>
+                    <a href="#">w12</a>
                 </li>
                 <li onclick="showpage(10)">
-                    <a href="#">w14</a>
+                    <a href="#">w13</a>
                 </li>
                 <li onclick="showpage(11)">
-                    <a href="#">w15</a>
+                    <a href="#">w14</a>
                 </li>
                 <li onclick="showpage(12)">
+                    <a href="#">w15</a>
+                </li>
+                <li onclick="showpage(13)">
                     <a href="#">w16</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- end of navbar -->
     <section class="show-classdemo">
 
     </section>
+    <!-- footer -->
+    <footer class="footer">
+        <!-- social icons -->
+        <ul class="social-icons">
+            <li>
+                <a href="https://www.facebook.com" class="social-icon">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/zh-Hant-TW" class="social-icon">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com" class="social-icon">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.whatsapp.com" class="social-icon">
+                <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" class="social-icon">
+                    <i class="fa-brands fa-instagram-square"></i>
+                </a>
+            </li>
+        </ul> 
+
+        <p>&copy; <span id="date"></span> PinYang Su. All rights reserved.</p>
+    </footer>
+    <!-- end of footer -->
     <script src="./js/demo_21.js"></script>
     <script>
         showpage(1);
